@@ -38,9 +38,6 @@ async function askName(){
 
   playerName = answers.player_name;
 }
-
-
-
 async function question1(){
   const answers = await inquirer.prompt({
     name: 'question_1',
